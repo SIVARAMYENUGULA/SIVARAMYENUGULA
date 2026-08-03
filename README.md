@@ -81,58 +81,33 @@
 
 ---
 
-<table>
-<tr>
-<td width="50%">
+<h2 align="center">🚀 Featured Projects</h2>
 
-<h3 align="center">🏢 Enterprise Application Modernization</h3>
-
-<p align="center">
-
-<a href="#">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SIVARAMYENUGULA&repo=EON-GC&theme=tokyonight"/>
-
-</a>
-
-</p>
-
-</td>
-
-<td width="50%">
-
-<h3 align="center">💼 PlaceMux</h3>
-
-<p align="center">
-
-<a href="#">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SIVARAMYENUGULA&repo=PlaceMux&theme=tokyonight"/>
-
-</a>
-
-</p>
-
-</td>
-
-</tr>
-</table>---
-
-
-<table>
+<table align="center">
 <tr>
 
 <td width="50%" align="center">
 
-<h3>🎫 Event Management System</h3>
+<h3>💳 Subscription Management System</h3>
 
-<a href="https://github.com/SIVARAMYENUGULA/Event-Management-System">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SIVARAMYENUGULA&repo=Event-Management-System&theme=tokyonight" />
+<a href="https://github.com/SIVARAMYENUGULA/Subscription-Management-System">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SIVARAMYENUGULA&repo=Subscription-Management-System&theme=tokyonight&hide_border=true&show_owner=true" />
+</a>
+
+</td>
+
+<td width="50%" align="center">
+
+<h3>💼 PlaceMux Recruitment System</h3>
+
+<a href="https://github.com/SIVARAMYENUGULA/placemuxsappalacation">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SIVARAMYENUGULA&repo=placemuxsappalacation&theme=tokyonight&hide_border=true&show_owner=true" />
 </a>
 
 </td>
 
 </tr>
 </table>
-
 # 🏆 Achievements
 
 🥇 Selected for **Lumen Technologies Internship** after clearing the Lumen Hackathon selection process.
