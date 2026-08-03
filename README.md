@@ -73,28 +73,48 @@
 
 # 🚀 Featured Projects
 
-<p align="center">
+## 💳 Subscription Management System
 
-<a href="https://github.com/SIVARAMYENUGULA/Subscription-Management-System">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SIVARAMYENUGULA&repo=Subscription-Management-System&theme=tokyonight&hide_border=true"/>
-</a>
+**Tech Stack:** JavaScript • Flask • SQL • HTML • CSS
 
-<a href="https://github.com/SIVARAMYENUGULA/placemuxsappalacation">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SIVARAMYENUGULA&repo=placemuxsappalacation&theme=tokyonight&hide_border=true"/>
-</a>
+**Key Features**
+- 🔐 Secure User Authentication
+- 📦 Subscription Management
+- 👨‍💼 Admin Dashboard
+- 📊 User & Subscription Analytics
+- 💳 Payment & Plan Management
 
-</p>
-
-<p align="center">
-
-<a href="https://github.com/sharmakeshav1030/EventManagementWebsite">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=sharmakeshav1030&repo=EventManagementWebsite&theme=tokyonight&hide_border=true"/>
-</a>
-
-</p>
+🔗 Repository: https://github.com/SIVARAMYENUGULA/Subscription-Management-System
 
 ---
 
+## 💼 PlaceMux Recruitment Management System
+
+**Tech Stack:** React.js • Node.js • Express.js • MongoDB
+
+**Key Features**
+- 👤 User & Recruiter Authentication
+- 💼 Job Posting & Applications
+- 📄 Resume Management
+- 🔍 Candidate Search
+- 📊 Admin Dashboard
+
+🔗 Repository: https://github.com/SIVARAMYENUGULA/placemuxsappalacation
+
+---
+
+## 🎫 Event Management Website
+
+**Tech Stack:** Python • HTML • CSS • JavaScript
+
+**Key Features**
+- 🎟 Event Registration
+- 👥 User Management
+- 📧 Email Notifications
+- 📅 Event Scheduling
+- 📊 Admin Dashboard
+
+🔗 Repository: https://github.com/sharmakeshav1030/EventManagementWebsite
 # 📊 GitHub Statistics
 
 <p align="center">
@@ -112,7 +132,7 @@
 </p>
 
 ---
-
+      
 # 🏆 GitHub Trophies
 
 <p align="center">
