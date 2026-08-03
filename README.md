@@ -157,11 +157,9 @@
 
 # 🐍 Contribution Snake
 
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/SIVARAMYENUGULA/SIVARAMYENUGULA/output/github-contribution-grid-snake-dark.svg"/>
-
-</p>
+<div align="center">
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+</div>
 
 ---
 
