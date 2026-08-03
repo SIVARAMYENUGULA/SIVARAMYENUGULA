@@ -1,0 +1,123 @@
+============================================================
+PlaceMux Express.js Backend - Project Structure
+============================================================
+
+backend/
+|
+|-- package.json
+|-- tsconfig.json
+|-- .env
+|-- .env.example
+|-- .eslintrc.js
+|-- .prettierrc
+|-- nodemon.json
+|
+|-- prisma/
+|   |-- schema.prisma
+|   |-- migrations/
+|   |-- seed.ts
+|
+|-- src/
+|   |-- index.ts                    # Entry point
+|   |-- app.ts                       # Express app setup
+|   |-- config/
+|   |   |-- index.ts                 # Environment config loader
+|   |   |-- database.ts             # Prisma client singleton
+|   |   |-- cors.ts                 # CORS configuration
+|   |   |-- logger.ts               # Winston/Pino logger setup
+|   |
+|   |-- middleware/
+|   |   |-- authenticate.ts         # JWT verification middleware
+|   |   |-- authorize.ts            # RBAC role check middleware
+|   |   |-- validate.ts             # Zod request validation
+|   |   |-- error-handler.ts        # Global error handler
+|   |   |-- rate-limiter.ts         # Rate limiting
+|   |   |-- audit-log.ts            # Audit trail middleware
+|   |
+|   |-- modules/
+|   |   |-- auth/
+|   |   |   |-- auth.controller.ts
+|   |   |   |-- auth.service.ts
+|   |   |   |-- auth.routes.ts
+|   |   |   |-- auth.validation.ts  # Zod schemas
+|   |   |   |-- auth.test.ts
+|   |   |
+|   |   |-- users/
+|   |   |   |-- user.controller.ts
+|   |   |   |-- user.service.ts
+|   |   |   |-- user.routes.ts
+|   |   |   |-- user.validation.ts
+|   |   |
+|   |   |-- jobs/
+|   |   |   |-- job.controller.ts
+|   |   |   |-- job.service.ts
+|   |   |   |-- job.routes.ts
+|   |   |   |-- job.validation.ts
+|   |   |
+|   |   |-- applications/
+|   |   |   |-- application.controller.ts
+|   |   |   |-- application.service.ts
+|   |   |   |-- application.routes.ts
+|   |   |   |-- application.validation.ts
+|   |   |
+|   |   |-- assessments/
+|   |   |   |-- assessment.controller.ts
+|   |   |   |-- assessment.service.ts
+|   |   |   |-- assessment.routes.ts
+|   |   |   |-- assessment.validation.ts
+|   |   |
+|   |   |-- interviews/
+|   |   |   |-- interview.controller.ts
+|   |   |   |-- interview.service.ts
+|   |   |   |-- interview.routes.ts
+|   |   |   |-- interview.validation.ts
+|   |   |
+|   |   |-- skills/
+|   |   |   |-- skill.controller.ts
+|   |   |   |-- skill.service.ts
+|   |   |   |-- skill.routes.ts
+|   |   |
+|   |   |-- notifications/
+|   |   |   |-- notification.controller.ts
+|   |   |   |-- notification.service.ts
+|   |   |   |-- notification.routes.ts
+|   |   |
+|   |   |-- analytics/
+|   |       |-- analytics.controller.ts
+|   |       |-- analytics.service.ts
+|   |       |-- analytics.routes.ts
+|   |
+|   |-- shared/
+|   |   |-- errors/
+|   |   |   |-- AppError.ts
+|   |   |   |-- HttpStatus.ts
+|   |   |
+|   |   |-- utils/
+|   |   |   |-- jwt.ts
+|   |   |   |-- password.ts
+|   |   |   |-- pagination.ts
+|   |   |
+|   |   |-- types/
+|   |       |-- index.ts
+|   |       |-- express.d.ts
+|   |
+|   |-- templates/
+|       |-- emails/
+|           |-- welcome.ts
+|           |-- reset-password.ts
+|           |-- application-received.ts
+|           |-- interview-scheduled.ts
+|
+|-- scripts/
+|   |-- seed.ts
+|   |-- migrate.ts
+|
+|-- tests/
+|   |-- unit/
+|   |-- integration/
+|   |-- fixtures/
+|
+|-- docker-compose.yml
+|-- Dockerfile
+|-- .dockerignore
+

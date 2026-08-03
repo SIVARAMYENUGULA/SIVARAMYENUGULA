@@ -1,0 +1,33 @@
+MongoDB connected: localhost
+PlaceMux API running on port 5000 [development]
+[0mGET /api/health [32m200[0m 9.720 ms - 78[0m
+[0mPOST /api/auth/login [32m200[0m 546.507 ms - 797[0m
+[0mPOST /api/auth/login [32m200[0m 366.909 ms - 797[0m
+[0mPOST /api/auth/login [32m200[0m 261.176 ms - 797[0m
+[0mGET /api/auth/profile [32m200[0m 8.798 ms - 617[0m
+[0mPOST /api/jobs [32m201[0m 11.715 ms - 470[0m
+[0mPOST /api/auth/login [32m200[0m 263.491 ms - 797[0m
+[0mGET /api/auth/profile [32m200[0m 10.519 ms - 638[0m
+[Email] Using Gmail SMTP: shabirsk989@gmail.com
+[Email] Transport verified successfully.
+[Email] SMTP_ACCEPTED: "Application Update - Workflow Test Job" to shabirsk989+student@gmail.com (messageId: <e08a85fd-9686-dec1-395b-bdf05c309e54@gmail.com>)
+[Email Delivery] {"deliveryId":"90a37f82f37daeac","flow":"unknown","to":"shabirsk989+student@gmail.com","subject":"Application Update - Workflow Test Job","status":"SMTP_ACCEPTED","passed":true}
+[Email] SMTP_ACCEPTED: "Application Submitted - Workflow Test Job" to shabirsk989+student@gmail.com (messageId: <ac9823c0-b874-6792-26d5-582089bb2c74@gmail.com>)
+[Email Delivery] {"deliveryId":"231d01adfd264080","flow":"unknown","to":"shabirsk989+student@gmail.com","subject":"Application Submitted - Workflow Test Job","status":"SMTP_ACCEPTED","passed":true}
+[0mPOST /api/assessments [32m201[0m 6.870 ms - 374[0m
+[0mPOST /api/assessments/6a319052b79c137ce6e8373c/questions [32m201[0m 22.701 ms - 564[0m
+[0mPOST /api/assessments/6a319052b79c137ce6e8373c/assign [32m200[0m 21.280 ms - 392[0m
+[0mPOST /api/assessments/6a319052b79c137ce6e8373c/start [32m200[0m 20.302 ms - 616[0m
+[Email] SMTP_ACCEPTED: "Assessment Result - Workflow Test" to shabirsk989+student@gmail.com (messageId: <94626dac-5111-eed4-2d15-f099f2e5a524@gmail.com>)
+[Email Delivery] {"deliveryId":"9cb13e8ebd583004","flow":"unknown","to":"shabirsk989+student@gmail.com","subject":"Assessment Result - Workflow Test","status":"SMTP_ACCEPTED","passed":true}
+[0mGET /api/assessments/company/results [32m200[0m 93.370 ms - 4072[0m
+[0mGET /api/interviews/upcoming [32m200[0m 14.733 ms - 10873[0m
+[Email] SMTP_ACCEPTED: "Assessment Completed - Workflow Test" to shabirsk989+company@gmail.com (messageId: <3b2ebdbd-8d8b-5d89-ced5-ec9d63ec34a8@gmail.com>)
+[Email Delivery] {"deliveryId":"924ad7513a9e9d2f","flow":"unknown","to":"shabirsk989+company@gmail.com","subject":"Assessment Completed - Workflow Test","status":"SMTP_ACCEPTED","passed":true}
+[0mPOST /api/assessments/6a319052b79c137ce6e8373c/submit [32m200[0m 15384.943 ms - 537[0m
+[0mPOST /api/auth/login [32m200[0m 270.999 ms - 806[0m
+[0mGET /api/college/dashboard [32m200[0m 44.778 ms - 174[0m
+[0mGET /api/college/analytics [32m200[0m 20.805 ms - 184[0m
+[Email] SMTP_ACCEPTED: "New Application Received - Workflow Test Job" to shabirsk989+company@gmail.com (messageId: <59dece53-91c1-f277-9eac-c4451a892938@gmail.com>)
+[Email Delivery] {"deliveryId":"f0abf63cb86a6f6c","flow":"unknown","to":"shabirsk989+company@gmail.com","subject":"New Application Received - Workflow Test Job","status":"SMTP_ACCEPTED","passed":true}
+[0mPOST /api/applications [32m201[0m 30698.801 ms - 361[0m
